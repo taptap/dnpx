@@ -1,0 +1,14 @@
+{
+  "name": "@taptap/dnpx", // 先在 jsr.io 创建 scope
+  "version": "0.1.0",
+  "exports": {
+    ".": "./src/mod.ts", // 供代码调用
+    "./cli": "./src/cli.ts" // 供命令行安装
+  },
+
+  "lint": { "rules": { "tags": ["recommended"] } },
+  "publish": {
+    "include": ["README.md", "src/*.ts"],
+    "exclude": ["**/*_test.ts"]
+  }
+}
