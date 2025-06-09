@@ -5,7 +5,7 @@ A Deno version of `npx`
 ## Usage
 
 ```bash
-deno install -A -n dnpx jsr:@taptap/dnpx/cli
+deno install -Ag -n dnpx jsr:@taptap/dnpx/cli
 ```
 
 Then you can

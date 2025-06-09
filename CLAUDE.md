@@ -36,6 +36,6 @@ deno publish
 
 ## 使用方式
 
-1. **命令行安装**: `deno install -A -n dnpx jsr:@taptap/dnpx/cli`
+1. **命令行安装**: `deno install -Ag -n dnpx jsr:@taptap/dnpx/cli`
 2. **项目任务**: 在 `deno.json` 中配置 `"x": "deno run -A jsr:@taptap/dnpx/cli $*"`
 3. **程序调用**: `import { run } from "@taptap/dnpx"`
