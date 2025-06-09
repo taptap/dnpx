@@ -5,7 +5,11 @@ on:
 jobs:
   jsr:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write
     steps:
       - uses: actions/checkout@v4
+      - uses: denoland/setup-deno@v2
       - name: Publish to JSR
-        run: deno publish --allow-dirty
+        run: deno publish
