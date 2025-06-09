@@ -1,6 +1,6 @@
 # dnpx
 
-A Deno version of `npx`
+A Deno version of `npx`, allowing you to run npm packages without installing them.
 
 ## Usage
 
